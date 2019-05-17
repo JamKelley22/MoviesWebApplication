@@ -1,0 +1,7 @@
+
+
+CREATE TABLE Movies(
+	MovieId INT IDENTITY(1,1) PRIMARY KEY,
+	MovieName NVARCHAR(100) NOT NULL,
+	MovieRating INT NOT NULL
+);
